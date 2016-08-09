@@ -1,0 +1,57 @@
+{
+  "name": "node-fcm-group",
+  "description": "Library for managing groups for Google's Firebase Cloud Messaging service",
+  "version": "0.1.0",
+  "author": "Daniel Liang <comtaler@gmail.com>",
+  "contributors": [
+    "Daniel Liang <comtaler@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/comtaler/node-fcm-group.git",
+    "web": "http://github.com/comtaler/node-fcm-group"
+  },
+  "keywords": [
+    "google",
+    "firebase",
+    "cloud",
+    "messaging",
+    "fcm",
+    "android",
+    "push",
+    "notification",
+    "ios",
+    "apn"
+  ],
+  "main": "index",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "mocha test/**/*Spec.js"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^4.14.2",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "should": "^10.0.0",
+    "mocha": "^2.2.4",
+    "proxyquire": "^1.4.0",
+    "sinon": "^1.14.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/comtaler/node-fcm-group/issues"
+  },
+  "homepage": "https://github.com/comtaler/node-fcm-group",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT"
+}
