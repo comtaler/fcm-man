@@ -1,6 +1,6 @@
 {
-  "name": "node-fcm-group",
-  "description": "Library for managing groups for Google's Firebase Cloud Messaging service",
+  "name": "fcm-man",
+  "description": "Library for managing Google's Firebase Cloud Messaging service",
   "version": "0.1.0",
   "author": "Daniel Liang <comtaler@gmail.com>",
   "contributors": [
@@ -8,8 +8,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/comtaler/node-fcm-group.git",
-    "web": "http://github.com/comtaler/node-fcm-group"
+    "url": "http://github.com/comtaler/fcm-man.git",
+    "web": "http://github.com/comtaler/fcm-man"
   },
   "keywords": [
     "google",
@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
+    "istanbul": "^0.4.4",
     "lodash": "^4.14.2",
     "request": "^2.74.0"
   },
@@ -48,9 +49,9 @@
     "node": ">= 4.0.0"
   },
   "bugs": {
-    "url": "https://github.com/comtaler/node-fcm-group/issues"
+    "url": "https://github.com/comtaler/fcm-man/issues"
   },
-  "homepage": "https://github.com/comtaler/node-fcm-group",
+  "homepage": "https://github.com/comtaler/fcm-man",
   "directories": {
     "test": "test"
   },

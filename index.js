@@ -4,4 +4,4 @@
  * MIT Licensed
  */
  
-module.exports = require('./lib/node-fcm-group');
+module.exports = require('./lib/fcm-man');

@@ -1,6 +1,6 @@
 'use strict';
 
-const fcm = require('../lib/node-fcm-group');
+const fcm = require('../lib/fcm-man');
 
 let options = {
     apiKey: 'project api key',
